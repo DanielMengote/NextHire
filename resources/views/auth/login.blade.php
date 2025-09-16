@@ -10,8 +10,9 @@
     <x-forms.input label="Email" name="email" type="email"></x-forms.input>
 
     <x-forms.input label="Password" name="password" type="password"></x-forms.input>
-
-    <x-forms.button>Create Account</x-forms.button>
+    <div class="flex justify-end">
+        <x-forms.button>Log In</x-forms.button>
+    </div>
 </x-forms.form>
 </div>
 
